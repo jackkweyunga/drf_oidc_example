@@ -4,7 +4,7 @@ An example for a django microservice project.
 
 ## Features
 
-- [x] Authentication and Authorization API using mozilla-dajngo-oidc package
+- [x] Authentication and Authorization API using [mozilla-django-oidc](https://github.com/mozilla/mozilla-django-oidc) package
 - [x] Keycloak Compatible
 
 ## Endpoints:
