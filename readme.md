@@ -9,11 +9,11 @@ An example for a django microservice project.
 
 ## Endpoints:
 
-| Endpoints  | Description                                                                                                               |
-|------------|---------------------------------------------------------------------------------------------------------------------------|
-| /          | A public api endpoint                                                                                                     |
-| /protected | A protected endpoint; requires an authenticated user. Requires an Bearer token passed in the request Authorization header |
-
+| Endpoints    | Description                                                                                                               |
+|--------------|---------------------------------------------------------------------------------------------------------------------------|
+| /            | A public api endpoint                                                                                                     |
+| /protected   | A protected endpoint; requires an authenticated user. Requires an Bearer token passed in the request Authorization header |
+| /healthcheck | A health check endpoint                                                                                                   |
 ## Setup
 
 create a `.env` file and add the following with there values:
